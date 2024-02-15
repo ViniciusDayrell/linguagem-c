@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    float x;
+    printf ("Digite o salario: ");
+    scanf ("%f", &x);
+    x = x * 1.075;
+     if (x < 1300){
+        printf ("O novo salario eh: %f mais auxilio de 100 reais",x);
+     } else {
+        printf ("O novo salario eh: %f",x);
+     }
+    return 0;
+}
