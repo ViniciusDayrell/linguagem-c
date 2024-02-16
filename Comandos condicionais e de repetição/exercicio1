@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int x;
+    printf ("Digite a idade do nadador: ");
+    scanf ("%d", &x);
+        if(x>=5 && x<=7){
+            printf ("Infantil A.");
+        } else if (x>=8 && x<=10){
+            printf("Infantil B.");
+        } else if (x>=11 && x<=13){
+            printf ("Juvenil A");
+        } else if (x>=14 && x<=17){
+            printf ("Juvenil B.");
+        } else if (x>17){
+            printf ("Senior");
+        } else {
+            printf ("A idade minima eh 5 anos!");
+        }
+    return 0;
+}
